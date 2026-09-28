@@ -1,0 +1,11 @@
+$ java src/RetryNoKey.java
+
+attempt 1: read timed out after 2000ms, retrying
+attempt 2: ok, receipt ch_2
+
+charges recorded by the provider:
+  ord_8812 4999
+  ord_8812 4999
+
+rows: 2
+customer was charged: 9998 cents

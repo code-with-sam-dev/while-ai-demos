@@ -1,0 +1,10 @@
+$ java src/StaleCache.java
+
+customer opens the order : PAID
+support issues a refund
+
+what the database says    : REFUNDED
+what the customer sees    : PAID
+
+database reads            : 1
+the cache did its job. that is the problem.

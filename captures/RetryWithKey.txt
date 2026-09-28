@@ -1,0 +1,11 @@
+$ java src/RetryWithKey.java
+
+attempt 1: read timed out after 2000ms, retrying
+  provider: key already seen, returning the original
+attempt 2: ok, receipt ch_1
+
+charges recorded by the provider:
+  ord_8812 4999
+
+rows: 1
+customer was charged: 4999 cents
